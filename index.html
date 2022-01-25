@@ -5,19 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Survery </title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div id="header"></div>
+    <div id="body">
     <h1 id="title">Title</h1>
     <p id="description">
         This is a quick survey form
 
     </p>
     <form id="survey-form">
-        <label id="name-label">Name</label>
+        <label id="name-label">Name</label><br>
     <input type="text" id="name" placeholder="enter your name"><br><br>
-    <label id="email-label">Email</label>
+    <label id="email-label">Email</label><br>
     <input type="email" id="email" placeholder="Enter your email"><br><br>
-    <label id="number-label">Number</label>
+    <label id="number-label">Number</label><br>
     <input type="number" id "number min="10" max="50" placeholder="Enter your number">
     <select id="dropdown">
         <option>drop 1</option>
@@ -27,10 +30,13 @@
     <input type="radio" name="gender" value="female"> Female<br>
     <input type="radio" name="gender" value="other"> Other<br>
     <input type="checkbox"   value="yes"><label>yes</label>
-    <input type="checkbox"  value="no"><label>no</label>
+    <input type="checkbox"  value="no"><label>no</label><br><br>
     <textarea></textarea> 
+    <br><br>
     <button type="submit">Submit</button>
                                       
     </form>
+
+</div>
 </body>
 </html>
